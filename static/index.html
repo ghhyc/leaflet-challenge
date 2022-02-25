@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- opening head tag -->
   <head>
+    <!-- meta is a child of the head tag -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Leaflet Step-1</title>
 
     <!-- Leaflet CSS -->
+    <!-- link the leaflet library -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
@@ -16,10 +19,21 @@
 
     <!-- Our CSS -->
     <!-- do not need static because index.html is in the static folder we do not need to navagate into the folder same for logic.js-->
+    <!-- path to local file -->
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!-- Closing head tags   -->
   </head>
 
   <body>
+    <header>
+      <h1>Illustration of Seismic Activity</h1>
+      <p>
+        The colored circles reflect the magnitude of the earthquake by their
+        size and depth. Earthquakes with higher magnitudes appear larger and
+        earthquakes with greater depth appear darker in color, according to the
+        legend in the bottom right corner.
+      </p>
+    </header>
     <!-- The div that holds our map -->
     <div id="map"></div>
 
